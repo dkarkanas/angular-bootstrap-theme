@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SideMenuComponent } from './layout/side-menu/side-menu.component';
 import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
+import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
     NavBarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgbTooltipModule
   ],
   exports: [
     SideMenuComponent,

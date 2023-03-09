@@ -51,7 +51,7 @@
 
             <ul class="navbar-nav flex-row flex-wrap ms-md-auto"
                 *ngIf="theme$ | async as theme">
-                <li class="nav-item">
+                <li class="nav-item" placement="start" ngbTooltip="Switch theme">
                     <a href="#"
                        (click)="toggleTheme()"
                        class="nav-link"><i [ngClass]="theme === 'dark'? 'bi-brightness-high':'bi-moon-stars-fill'"
