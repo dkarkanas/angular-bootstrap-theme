@@ -13,6 +13,11 @@ An `angular 15` with [Bootstrap 5.3.alpha-1](https://blog.getbootstrap.com/2022/
 ## services
 - theme-swither
 
+## links
+- https://getbootstrap.com/docs/5.3/examples/cheatsheet/
+- https://getbootstrap.com/docs/5.3/examples/
+- https://icons.getbootstrap.com/
+
 # Screens
 ![Dark theme](assets/dark.png?raw=true "dark")
 
