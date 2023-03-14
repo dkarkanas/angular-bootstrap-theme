@@ -1,5 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary ">
     <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <a class="navbar-brand"
            href="#">Navbar</a>
         <button class="navbar-toggler"
@@ -51,7 +54,8 @@
 
             <ul class="navbar-nav flex-row flex-wrap ms-md-auto"
                 *ngIf="theme$ | async as theme">
-                <li class="nav-item" placement="start" ngbTooltip="Switch theme">
+                <li class="nav-item"
+                    ngbTooltip="Switch theme">
                     <a href="#"
                        (click)="toggleTheme()"
                        class="nav-link"><i [ngClass]="theme === 'dark'? 'bi-brightness-high':'bi-moon-stars-fill'"

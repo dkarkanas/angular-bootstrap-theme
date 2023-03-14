@@ -1,6 +1,6 @@
 # angular-bootstrap-theme
 
-An `angular 15` with [Bootstrap 5.3.alpha-1](https://blog.getbootstrap.com/2022/12/24/bootstrap-5-3-0-alpha1/).
+An `angular 15` app with [Bootstrap 5.3.alpha-1](https://blog.getbootstrap.com/2022/12/24/bootstrap-5-3-0-alpha1/).
 
 ## included packages
 - `"bootstrap-icons": "^1.10.3"`
