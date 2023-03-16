@@ -19,5 +19,6 @@ export class NavBarComponent implements OnInit {
 
   toggleTheme() {
     this.themeService.toggleTheme();
+    return false; // prevent default
   }
 }
